@@ -1,0 +1,37 @@
+#singleContainer {
+    border: 1px solid black;
+    padding: 1rem;
+    height: 70vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    transition: 0.3s;
+}
+#singleContainer:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#singleContainer img {
+    width: 65%;
+    height: 100%;
+    margin-right: 5px;
+}
+
+#singleContainer > div {
+    padding: 4%;
+    margin: auto;
+    margin-left: 5px;
+  }
+
+  #singleStyleDiv,
+  .singleStyle{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.singleStyle{
+    background-color: rgba(0, 140, 255, 0.233);
+  }
